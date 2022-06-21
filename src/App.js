@@ -1,12 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Teams from "./teams/Teams";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/team" element={<Teams />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
