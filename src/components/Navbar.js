@@ -25,40 +25,28 @@ const Navbar = () => {
             </div>
           </div>
           {/* <!-- Menu items --> */}
-          <div className="hidden lg:flex space-x-6">
+          <div className="hidden lg:flex space-x-6 lg:text-2xl">
             <NavLink
               to="/"
-              className={
-                (({ isActive }) => (isActive ? activeTab : undefined),
-                "lg:text-2xl")
-              }
+              className={({ isActive }) => (isActive ? activeTab : undefined)}
             >
               Home
             </NavLink>
             <NavLink
               to="/gallery"
-              className={
-                (({ isActive }) => (isActive ? activeTab : undefined),
-                "lg:text-2xl")
-              }
+              className={({ isActive }) => (isActive ? activeTab : undefined)}
             >
               Gallery
             </NavLink>
             <NavLink
               to="/team"
-              className={
-                (({ isActive }) => (isActive ? activeTab : undefined),
-                "lg:text-2xl")
-              }
+              className={({ isActive }) => (isActive ? activeTab : undefined)}
             >
               Team
             </NavLink>
             <NavLink
               to="/events"
-              className={
-                (({ isActive }) => (isActive ? activeTab : undefined),
-                "lg:text-2xl")
-              }
+              className={({ isActive }) => (isActive ? activeTab : undefined)}
             >
               Events
             </NavLink>
