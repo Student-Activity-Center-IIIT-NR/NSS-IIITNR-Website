@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const activeTab = "font-bold";
+  const activeTab = "font-medium underline";
   return (
     <>
       {/* <!-- Navbar --> */}
