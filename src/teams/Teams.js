@@ -40,7 +40,7 @@ const Teams = () => {
       {/* Volunteers */}
       <section
         id="senior-vol"
-        className="container flex flex-col max-w-full items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+        className="container flex flex-col max-w-7xl items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
       >
         <h3 className="max-w-lg text-4xl font-bold text-center md:text-5xl mb-6">
           Senior Volunteer
@@ -57,7 +57,7 @@ const Teams = () => {
       </section>
       <section
         id="junior-vol"
-        className="container flex flex-col max-w-full items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+        className="container flex flex-col max-w-7xl items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
       >
         <h3 className="max-w-lg text-4xl font-bold text-center md:text-5xl mb-6 mt-6">
           Junior Volunteer
