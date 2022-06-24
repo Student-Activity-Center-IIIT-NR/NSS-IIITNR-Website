@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="lg:max-w-sm flex flex-col items-center lg:items-start pt-8 lg:pt-0 space-y-2">
             <input
               type="text"
-              class="
+              className="
               w-7xl
               px-3
               py-1.5
@@ -56,7 +56,7 @@ const Footer = () => {
             />
             <input
               type="email"
-              class="
+              className="
               w-7xl
               px-3
               py-1.5
@@ -77,7 +77,7 @@ const Footer = () => {
               type="text"
               rows="4"
               cols="19"
-              class="
+              className="
               w-7xl
               px-3
               py-1.5
