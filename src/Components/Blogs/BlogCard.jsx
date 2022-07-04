@@ -6,7 +6,7 @@ export const BlogCard = ({blog_details}) => {
       <div className='h-[400px] w-[300px] lg:h-[400px] lg:w-[400px] rounded-2xl '>
         <img src={blog_details.blog_img} className='' alt="" />
       </div>
-      <div className='bg-white rounded-2xl flex flex-col w-[280px] lg:w-[350px] lg:h-[210px] justify-center items-center py-4 px-6 drop-shadow-md space-y-2'>
+      <div className='bg-white rounded-2xl flex flex-col w-[280px] lg:w-[350px] lg:h-[240px] justify-center items-center py-4 px-6 drop-shadow-md space-y-2'>
         <div className='text-lg lg:text-xl font-bold uppercase'>{blog_details.blog_heading}</div>
         <div className='text-base lg:text-md font-medium'>
         {blog_details.blog_content}
