@@ -1,16 +1,12 @@
 import React from "react";
-import { NavbarGallery } from "./NavbarGallery";
 
 const Gallery = () => {
   return (
     <>
-    <NavbarGallery/>
-      <h1 className=" bg-[#E5E5E5] container px-5 py-2 mx-auto lg:pt-24 lg:px-32 text-2xl md:text-4xl lg:text-6xl">
-       
-      <br></br> Our Memories
+      <h1 className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32 text-2xl md:text-4xl lg:text-6xl">
+        Our Memories
       </h1>
-      <section className="bg-[#E5E5E5] overflow-hidden text-gray-700">
-        
+      <section className="overflow-hidden text-gray-700">
         <div className="container px-5 py-2 mx-auto lg:pt-16 lg:px-32">
           <div className="flex flex-wrap -m-1 md:-m-2">
             <div className="flex flex-wrap w-1/2">
