@@ -6,7 +6,7 @@ export const NavbarGallery = () => {
     const [showMobileMenu, setshowMobileMenu] = useState(false)
     const [expanded, setExpanded] = useState(false)
     return (
-        <div className='bg-[#E5E5E5]'>
+        <div className='bg-white'>
             <div className='flex flex-row justify-between items-center top-0 w-[100%] py-5 px-2 sm:px-6 lg:px-16'>
                 <div className='flex flex-row space-x-1 items-center '>
                     <div className='flex flex-row space-x-0.5 items-center'>

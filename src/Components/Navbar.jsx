@@ -13,10 +13,10 @@ export const Navbar = () => {
             <div className='flex flex-row justify-between items-center md:absolute top-0 w-[100%] py-5 px-2 sm:px-6 lg:px-16'>
                 <div className='flex flex-row space-x-1 items-center '>
                     <div className='flex flex-row space-x-0.5 items-center'>
-                        <img src="./images/nss.png" className='aspect-auto h-[80px] w-[80px] ' alt="NSS Logo" />
-                        <div className='text-5xl font-normal'>NSS</div>
+                        <img src="./images/nss.png" className='aspect-auto w-[50px] h-[50px] sm:h-[80px] sm:w-[80px] ' alt="NSS Logo" />
+                        <div className='text-3xl sm:text-5xl font-normal'>NSS</div>
                     </div>
-                    <div className='flex flex-col text-2xl mt-2  font-normal -space-y-3'>
+                    <div className='flex flex-col text-lg sm:text-2xl mt-2  font-normal -space-y-3'>
                         <div>IIIT</div>
                         <div>Naya Raipur</div>
                     </div>

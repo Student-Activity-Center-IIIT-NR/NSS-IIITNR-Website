@@ -1,8 +1,9 @@
 import React from "react";
-
+import { NavbarGallery } from "./NavbarGallery";
 const Gallery = () => {
   return (
     <>
+    <NavbarGallery />
       <h1 className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32 text-2xl md:text-4xl lg:text-6xl">
         Our Memories
       </h1>
