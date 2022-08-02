@@ -3,7 +3,6 @@ import React from "react";
 const Card = () => {
   return (
     <>
-    
       <div className="container rounded-2xl mx-auto max-w-xs bg-stone-400">
         <div className="mx-auto p-6">
           <img

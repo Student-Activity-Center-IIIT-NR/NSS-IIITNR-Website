@@ -1,11 +1,12 @@
 import React from "react";
-import { NavbarEvents } from "../Components/Events/NavbarEvents";
 import Card from "./Card";
+import Navbar from "../components/Navbar";
+import { Footer } from "../components/Footer";
 
 const Teams = () => {
   return (
     <>
-      <NavbarEvents />
+      <Navbar />
       <section id="hero">
         <div className="container flex flex-col md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
           <div className="flex flex-col mb-12 space-y-8 md:w-1/2 md:space-x-1 md:justify-center">
@@ -13,11 +14,11 @@ const Teams = () => {
               Our Team
             </h1>
             <p className="max-w-sm text-center text-darkGrayingBlue md:text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Adipiscing velit morbi imperdiet ac aliquam pretium. Et dignissim
-              in interdum sit nibh quam urna feugiat habitant. Eu cras cras
-              laoreet sagittis. Nunc ornare tellus urna mattis non neque aliquam
-              orci fringilla. Nunc lectus vitae sed turpis lobortis.
+              Our team works under the leadership of NSS Program Officer
+              Lakhinder Murmu Sir. Under his guidance the team undertakes a lot
+              of initiatives & organises programs aimed at serving the society
+              and nation & towards conservation of nature. The NSS unit also has
+              a taskforce of Volunteers to organise & oversee the events.
             </p>
           </div>
           <div className="md:w-1/2">
@@ -47,7 +48,7 @@ const Teams = () => {
         <h3 className="max-w-lg text-4xl font-bold text-center md:text-5xl mb-6">
           Senior Volunteer
         </h3>
-        <div class="flex flex-row flex-wrap gap-4">
+        <div className="flex flex-row flex-wrap gap-4">
           <Card />
           <Card />
           <Card />
@@ -64,7 +65,7 @@ const Teams = () => {
         <h3 className="max-w-lg text-4xl font-bold text-center md:text-5xl mb-6 mt-6">
           Junior Volunteer
         </h3>
-        <div class="flex flex-row flex-wrap gap-4">
+        <div className="flex flex-row flex-wrap gap-4">
           <Card />
           <Card />
           <Card />
@@ -75,6 +76,7 @@ const Teams = () => {
           <Card />
         </div>
       </section>
+      <Footer />
     </>
   );
 };
