@@ -25,7 +25,11 @@ export const SocialMedia = () => {
             </svg>
           </div>
         </a>
-        <a href="/">
+        <a
+          href="https://www.instagram.com/nss_iiitnr"
+          rel="noreferrer"
+          target={"_blank"}
+        >
           <div className="cursor-pointer">
             <svg
               // width="53.3"
