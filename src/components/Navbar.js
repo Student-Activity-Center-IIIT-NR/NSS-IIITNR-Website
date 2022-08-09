@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = ({ display = "" }) => {
   const activeTab = "underline underline-offset-4";
@@ -11,20 +11,22 @@ const Navbar = ({ display = "" }) => {
           {/* <!-- Flex container --> */}
           <div className="flex items-center justify-between">
             {/* <!-- logo --> */}
-            <div className="pt-2 flex flex-row items-center">
-              <img
-                src="./assets/nss_logo.png"
-                className="w-11 h-11 lg:w-20 lg:h-20"
-                alt="NSS Logo"
-              />
-              <div className="flex flex-row">
-                <h1 className="text-5xl font-normal lg:text-8xl">NSS</h1>
-                <div className="flex flex-col justify-center">
-                  <p className="text-sm lg:text-4xl">IIIT</p>
-                  <p className="text-sm lg:text-4xl">Naya Raipur</p>
+            <Link to="/">
+              <div className="pt-2 flex flex-row items-center">
+                <img
+                  src="./assets/nss_logo.png"
+                  className="w-11 h-11 lg:w-20 lg:h-20"
+                  alt="NSS Logo"
+                />
+                <div className="flex flex-row">
+                  <h1 className="text-5xl font-normal lg:text-8xl">NSS</h1>
+                  <div className="flex flex-col justify-center">
+                    <p className="text-sm lg:text-4xl">IIIT</p>
+                    <p className="text-sm lg:text-4xl">Naya Raipur</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             {/* <!-- Menu items --> */}
             <div className="hidden lg:flex space-x-6 lg:text-2xl">
               <NavLink

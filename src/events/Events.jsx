@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { Footer } from "../components/Footer";
+import Footer from "../components/Footer";
 import Event from "./Event";
 
 export const Events = () => {
@@ -26,8 +26,8 @@ export const Events = () => {
   ];
   return (
     <>
-      <Navbar />
-      <div className="bg-[#E5E5E5]">
+      <Navbar display="bg-[#E5E5E5]" />
+      <div className="">
         <div className="text-4xl md:text-5xl py-3 md:py-5 px-6 md:px-16 font-semibold">
           <span className="text-[#E12129]">Our </span>
           <span className="text-[#332965]">Events</span>

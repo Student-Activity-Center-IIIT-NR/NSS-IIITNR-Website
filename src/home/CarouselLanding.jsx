@@ -3,10 +3,11 @@ import React, { useState } from "react";
 export const CarouselLanding = () => {
   const [photo, setphoto] = useState(0);
   const Carousel_Images = [
+    "./images/carasouel/3.jpeg",
     "./images/carasouel/2.jpeg",
     "./images/carasouel/1.jpg",
-    "./images/carasouel/3.jpeg",
   ];
+
   const next = () => {
     console.log(photo);
     if (photo === Carousel_Images.length - 1) {
@@ -16,6 +17,7 @@ export const CarouselLanding = () => {
       setphoto(number);
     }
   };
+
   const previous = () => {
     if (photo === 0) {
       setphoto(Carousel_Images.length - 1);
@@ -24,13 +26,14 @@ export const CarouselLanding = () => {
       setphoto(number);
     }
   };
+
   return (
     <div className="scale-75 sm:scale-x-90 sm:scale-y-75 lg:scale-100 relative">
       <div className="overflow-hidden ">
         <div className="rounded-2xl shadow-sm drop-shadow-lg shadow-black ">
           <img
             src={Carousel_Images[photo]}
-            className="w-[588px] h-[362px] aspect-auto rounded-2xl  "
+            className="w-[588px] h-[362px] aspect-auto rounded-xl  "
             alt=""
           />
         </div>

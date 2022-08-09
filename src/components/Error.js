@@ -21,13 +21,6 @@ const Error = () => {
               Go home
             </Link>
           </div>
-          <div className="mt-4">
-            <img
-              src="https://cdn.pixabay.com/photo/2016/11/22/23/13/black-dog-1851106__340.jpg"
-              alt="img"
-              className="object-cover w-full h-full"
-            />
-          </div>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import { GoalsVision } from "./GoalsVision";
 import { Landing } from "./Landing";
 import { NSS } from "./NSS";
 import Blogs from "./Blogs/Blogs";
-import { Footer } from "../components/Footer";
+import Footer from "../components/Footer.js";
 
 const Home = () => {
   return (

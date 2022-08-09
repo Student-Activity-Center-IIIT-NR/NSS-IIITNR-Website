@@ -7,7 +7,7 @@ const Blogs = () => {
       blog_img: "./images/blogs/1.png",
       blog_heading: "World Environment Day, 2022",
       blog_content:
-        "The NSS unit of Dr. SPM-IIIT, Naya Raipur, in collaboration with ISR, organized a plantation drive in the university campus on the occasion of World Environment Day. Dr. Lakhinder Murmu, NSS Program Officer, led the team of NSS volunteers who gave a message for environmental protection by planting saplings, watering plants & running a cleanliness campaign around the university premises.",
+        "The NSS unit of IIIT-Naya Raipur, in collaboration with ISR, organized a plantation drive in the university campus on the occasion of World Environment Day. Dr. Lakhinder Murmu, NSS Program Officer, led the team of NSS volunteers who gave a message for environmental protection by planting saplings, watering plants & running a cleanliness campaign around the university premises.",
     },
     {
       blog_img: "./images/blogs/2.png",
@@ -28,10 +28,8 @@ const Blogs = () => {
         BLOGS
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 xl:gap-y-0 xl:grid-cols-3 place-content-between place-items-stretch">
-        {blog.map((blog_details) => {
-          return (
-            <BlogCard key={blog_details.blog_img} blog_details={blog_details} />
-          );
+        {blog.map((blog_details, index) => {
+          return <BlogCard key={index} blog_details={blog_details} />;
         })}
       </div>
     </div>
