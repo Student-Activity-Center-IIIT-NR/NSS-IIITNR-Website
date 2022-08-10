@@ -57,11 +57,11 @@ function Teams() {
       </h3>
       <div className="flex flex-row flex-wrap gap-4 my-10">
         <Card
-          image={"./assets/team/sudhanshu.png"}
+          image={"./assets/team/"}
           name={"Anand Singh"}
-          linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
-          twitter={"https://twitter.com/sudhanshutweets"}
-          mail={"mailto:sudhanshu20101@iiitnr.edu.in"}
+          linkedin={"https://www.linkedin.com/in/anand-singh-16b245225/"}
+          twitter={"https://twitter.com/Aksingh_55"}
+          mail={"mailto:anand20101@iiitnr.edu.in"}
         />
       </div>
       <div className="flex flex-row flex-wrap items-center justify-center">
@@ -70,31 +70,33 @@ function Teams() {
         </h3>
         <div className="flex flex-row flex-wrap gap-4 my-10">
           <Card
-            image={"./assets/team/sudhanshu.png"}
+            image={"./assets/team/ajeet.jpeg"}
             name={"Ajeet Ram Verma"}
-            linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
-            twitter={"https://twitter.com/sudhanshutweets"}
-            mail={"mailto:sudhanshu20101@iiitnr.edu.in"}
+            linkedin={"https://www.linkedin.com/in/ajeet-ram-verma-953605244/"}
+            twitter={"https://twitter.com/ajeet_321"}
+            mail={"mailto:ajeet20101@iiitnr.edu.in"}
             dept={"Rural Transformation through Education"}
           />
           <Card
-            image={"./assets/team/sudhanshu.png"}
+            image={"./assets/team/navneet.jpeg"}
             name={"Navneet Chaubey"}
-            linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
-            twitter={"https://twitter.com/sudhanshutweets"}
-            mail={"mailto:sudhanshu20101@iiitnr.edu.in"}
+            linkedin={
+              "https://www.linkedin.com/in/navneet-kumar-chaubey-3702b9244/"
+            }
+            twitter={"https://twitter.com/navneetchaubey_"}
+            mail={"mailto:navneet21100@iiitnr.edu.in"}
             dept="Events"
           />
           <Card
-            image={"./assets/team/sudhanshu.png"}
+            image={"./assets/team/paridhi.jpeg"}
             name={"Paridhi Chauhan"}
-            linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
-            twitter={"https://twitter.com/sudhanshutweets"}
-            mail={"mailto:sudhanshu20101@iiitnr.edu.in"}
+            linkedin={"https://www.linkedin.com/in/paridhi-chauhan-924bb9223/"}
+            twitter={"https://twitter.com"}
+            mail={"mailto:paridhi21100@iiitnr.edu.in"}
             dept="Content"
           />
           <Card
-            image={"./assets/team/sudhanshu.png"}
+            image={"./assets/team/"}
             name={"Ganesh Prajapati"}
             linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
             twitter={"https://twitter.com/sudhanshutweets"}
@@ -102,12 +104,20 @@ function Teams() {
             dept="Design"
           />
           <Card
-            image={"./assets/team/sudhanshu.png"}
+            image={"./assets/team/saumya.jpeg"}
             name={"Saumya Singh"}
-            linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
-            twitter={"https://twitter.com/sudhanshutweets"}
-            mail={"mailto:sudhanshu20101@iiitnr.edu.in"}
+            linkedin={"https://www.linkedin.com/in/saumya-singh-5237b6203/"}
+            twitter={"https://twitter.com/saumyas83388904"}
+            mail={"mailto:saumya20101@iiitnr.edu.in"}
             dept="Women Empowerment"
+          />
+          <Card
+            image={"./assets/team/rony.jpeg"}
+            name={"Rony Joseph"}
+            linkedin={"https://www.linkedin.com/in/rony-joseph-0619bb205"}
+            twitter={"https://twitter.com/RonyJos09575199"}
+            mail={"mailto:rony20100@iiitnr.edu.in"}
+            dept="Web Development"
           />
         </div>
       </div>

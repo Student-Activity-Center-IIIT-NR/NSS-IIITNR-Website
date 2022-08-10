@@ -21,13 +21,19 @@ const Blogs = () => {
       blog_content:
         "NSS unit of IIIT-Naya Raipur organized a first of its kind NSS Orientation program for the BTech batch 2021.The program aimed at educating the new NSS volunteers about how NSS offers great opportunities to serve the society as well as for personal development. the event had the gracious presence of Dr. P.K. Sinha, Director IIITNR, Dr. Neeta Bajpai, NSS Coordinator (C.G.), Dr. Punya Paltani, Dean (Research) IIITNR, Satyendra Sahu, President Awardee NSS Senior Volunteer & Nikhil Kumar, State awardee Senior NSS Volunteer.",
     },
+    {
+      blog_img: "./images/blogs/3.png",
+      blog_heading: "Plantation Drive, 2022",
+      blog_content:
+        "Under the aegis of ‘Azadi Ka Amrit Mahotsav’, the NSS unit of IIIT Naya Raipur, organized a plantation drive in the university campus, celebrating 75 years of India’s Independence. Faculty members, non-teaching staff, NSS Volunteers & Officials of the institute actively participated in the drive during which Neem, Guava, Peepal, Almond & Mango tree seedlings and saplings were planted.",
+    },
   ];
   return (
     <div className="flex flex-col bg-white px-4 lg:px-8 py-10 ">
       <div className="text-2xl lg:text-4xl font-semibold uppercase pb-8">
         BLOGS
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 xl:gap-y-0 xl:grid-cols-3 place-content-between place-items-stretch">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 xl:gap-y-8 xl:grid-cols-3 place-content-between place-items-stretch">
         {blog.map((blog_details, index) => {
           return <BlogCard key={index} blog_details={blog_details} />;
         })}

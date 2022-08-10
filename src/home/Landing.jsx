@@ -13,7 +13,7 @@ export const Landing = () => {
             Works towards the the nation building
           </div>
           <div className="text-sm sm:text-md lg:text-lg">
-            Dr. SPM IIIT-Naya Raipur, established by the International Institute
+            IIIT Naya Raipur, established by the International Institute
             of Information Technology University Act, 2013 of the Government of
             Chhattisgarh, is a joint venture by Chhattisgarh State Government
             and National Thermal Power Corporation (NTPC). The institute is

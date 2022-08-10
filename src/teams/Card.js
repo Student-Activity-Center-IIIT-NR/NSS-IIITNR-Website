@@ -7,7 +7,7 @@ const Card = ({ image, name, linkedin, twitter, mail, dept }) => {
         <div className="mx-auto p-6">
           <img
             src={image}
-            className="block object-cover object-center w-full h-full rounded-lg"
+            className="block object-cover object-center w-full h-72 rounded-lg"
             alt=""
           />
         </div>

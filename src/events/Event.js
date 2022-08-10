@@ -9,7 +9,7 @@ const Event = ({ event_details }) => {
           <h3 className="text-xl md:text-4xl py-2 ld:py-6 text-center">
             {event_details.event_heading}
           </h3>
-          <p className="text-sm md:text-xl lg:text-2xl lg:py-4 text-justify">
+          <p className="text-sm md:text-xl lg:text-xl lg:py-4 text-justify">
             {event_details.event_content}
           </p>
         </div>
