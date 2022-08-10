@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "./Card";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Card from "./Card";
 
-const Teams = () => {
+function Teams() {
   return (
     <>
       <Navbar display="bg-[#E5E5E5]" />
@@ -28,7 +28,7 @@ const Teams = () => {
         <div className="flex flex-col mb-8 space-y-8 mt-6">
           <h1 className="text-3xl text-center md:text-5xl ">Program Officer</h1>
           <Card
-            image={"./team/lakhindar.jpeg"}
+            image={"./assets/team/lakhindar.jpeg"}
             name={"Dr. Lakhindar Murmu"}
             linkedin={"https://www.linkedin.com/in/lakhindar-murmu-2b76111b/"}
             twitter={"https://twitter.com/murmu_kgec25"}
@@ -44,7 +44,7 @@ const Teams = () => {
         </h3>
         <div className="flex flex-row">
           <Card
-            image={"./team/sudhanshu.png"}
+            image={"./assets/team/sudhanshu.png"}
             name={"Sudhanshu Tripathi"}
             linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
             twitter={"https://twitter.com/sudhanshutweets"}
@@ -57,7 +57,7 @@ const Teams = () => {
       </h3>
       <div className="flex flex-row flex-wrap gap-4 my-10">
         <Card
-          image={"./team/sudhanshu.png"}
+          image={"./assets/team/sudhanshu.png"}
           name={"Anand Singh"}
           linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
           twitter={"https://twitter.com/sudhanshutweets"}
@@ -70,7 +70,7 @@ const Teams = () => {
         </h3>
         <div className="flex flex-row flex-wrap gap-4 my-10">
           <Card
-            image={"./team/sudhanshu.png"}
+            image={"./assets/team/sudhanshu.png"}
             name={"Ajeet Ram Verma"}
             linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
             twitter={"https://twitter.com/sudhanshutweets"}
@@ -78,7 +78,7 @@ const Teams = () => {
             dept={"Rural Transformation through Education"}
           />
           <Card
-            image={"./team/sudhanshu.png"}
+            image={"./assets/team/sudhanshu.png"}
             name={"Navneet Chaubey"}
             linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
             twitter={"https://twitter.com/sudhanshutweets"}
@@ -86,15 +86,15 @@ const Teams = () => {
             dept="Events"
           />
           <Card
-            image={"./team/sudhanshu.png"}
+            image={"./assets/team/sudhanshu.png"}
             name={"Paridhi Chauhan"}
             linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
             twitter={"https://twitter.com/sudhanshutweets"}
             mail={"mailto:sudhanshu20101@iiitnr.edu.in"}
-            dept="Contents"
+            dept="Content"
           />
           <Card
-            image={"./team/sudhanshu.png"}
+            image={"./assets/team/sudhanshu.png"}
             name={"Ganesh Prajapati"}
             linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
             twitter={"https://twitter.com/sudhanshutweets"}
@@ -102,7 +102,7 @@ const Teams = () => {
             dept="Design"
           />
           <Card
-            image={"./team/sudhanshu.png"}
+            image={"./assets/team/sudhanshu.png"}
             name={"Saumya Singh"}
             linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
             twitter={"https://twitter.com/sudhanshutweets"}
@@ -114,6 +114,6 @@ const Teams = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default Teams;

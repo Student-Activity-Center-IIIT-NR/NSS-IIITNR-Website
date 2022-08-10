@@ -17,7 +17,7 @@ export const BlogCard = ({ blog_details }) => {
         <div className="flex flex-row justify-between w-full items-center font-medium pb-2">
           <div>Read More</div>
           <Link to="/events">
-            <img src="./images/readmore.svg" alt="" />
+            <img src="./assets/readmore.svg" alt="" />
           </Link>
         </div>
       </div>

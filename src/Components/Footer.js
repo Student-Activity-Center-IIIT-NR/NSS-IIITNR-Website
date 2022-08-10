@@ -28,7 +28,7 @@ const Footer = () => {
               <div className="flex flex-col gap-y-4 text-lg md:text-xl lg:text-2xl">
                 <div className="flex flex-row items-center gap-x-3">
                   <img className="w-6" src="./assets/location.svg" alt="" />
-                  <p>IIIT Naya Raipur</p>
+                  <p>NSS Office, IIIT Naya Raipur</p>
                 </div>
                 <div className="flex flex-row items-center gap-x-3">
                   <img className="w-6" src="./assets/email.svg" alt="" />
