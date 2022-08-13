@@ -57,7 +57,7 @@ function Teams() {
       </h3>
       <div className="flex flex-row flex-wrap gap-4 my-10">
         <Card
-          image={"./assets/team/"}
+          image={"./assets/team/anand.png"}
           name={"Anand Singh"}
           linkedin={"https://www.linkedin.com/in/anand-singh-16b245225/"}
           twitter={"https://twitter.com/Aksingh_55"}
@@ -96,11 +96,11 @@ function Teams() {
             dept="Content"
           />
           <Card
-            image={"./assets/team/"}
+            image={"./assets/team/ganesh.jpeg"}
             name={"Ganesh Prajapati"}
-            linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
-            twitter={"https://twitter.com/sudhanshutweets"}
-            mail={"mailto:sudhanshu20101@iiitnr.edu.in"}
+            linkedin={"https://www.linkedin.com/in/ganesh-prajapati-25577222b/"}
+            twitter={"https://twitter.com/GaneshP33886198"}
+            mail={"mailto:ganesh21101@iiitnr.edu.in"}
             dept="Design"
           />
           <Card
@@ -118,6 +118,14 @@ function Teams() {
             twitter={"https://twitter.com/RonyJos09575199"}
             mail={"mailto:rony20100@iiitnr.edu.in"}
             dept="Web Development"
+          />
+          <Card
+            image={"./assets/team/akash.jpeg"}
+            name={"Akash Trivedi"}
+            linkedin={"https://www.linkedin.com/in/akash-trivedi-bb07ba235/"}
+            twitter={"https://twitter.com/akashtr22810150"}
+            mail={"mailto:akasht21100@iiitnr.edu.in"}
+            dept="Social Media"
           />
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import data from "./ImageList.json";
+import data from "./ImageList";
 
 const Gallery = () => {
   return (
@@ -19,7 +19,7 @@ const Gallery = () => {
                   <div key={index} className="w-1/2 p-1 md:p-2">
                     <img
                       alt=""
-                      className="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-contain object-center w-full h-full rounded-lg"
                       src={img.image}
                     />
                   </div>

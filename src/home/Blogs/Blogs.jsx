@@ -4,25 +4,25 @@ import { BlogCard } from "./BlogCard";
 const Blogs = () => {
   const blog = [
     {
-      blog_img: "./images/blogs/1.png",
+      blog_img: "./assets/gallery/4.jpeg",
       blog_heading: "World Environment Day, 2022",
       blog_content:
         "The NSS unit of IIIT-Naya Raipur, in collaboration with ISR, organized a plantation drive in the university campus on the occasion of World Environment Day. Dr. Lakhinder Murmu, NSS Program Officer, led the team of NSS volunteers who gave a message for environmental protection by planting saplings, watering plants & running a cleanliness campaign around the university premises.",
     },
     {
-      blog_img: "./images/blogs/2.png",
+      blog_img: "./assets/gallery/56.jpeg",
       blog_heading: "NIC, Raipur, 2022",
       blog_content:
         "The NSS unit of IIIT-NR collaborated with Pt. Ravishankar Shukla University in hosting the National Integration Camp at Raipur from 21st to 27th May, 2022. NSS Volunteers from 12 states across the country participated in the camp which turned out to be a splendid display of different cultures of India. A lot of competitions, cultural & sport events were organized in the camp which helped the volunteers learn about the diverse cultures of our nation & foster the spirit of national integration. Dr. Lakhinder Murmu, NSS Program officer for IIIT-NR, addressed the social media workshop organized during the camp.",
     },
     {
-      blog_img: "./images/blogs/3.png",
+      blog_img: "./assets/gallery/30.jpeg",
       blog_heading: "NSS ORIENTATION PROGRAMME, 2022",
       blog_content:
         "NSS unit of IIIT-Naya Raipur organized a first of its kind NSS Orientation program for the BTech batch 2021.The program aimed at educating the new NSS volunteers about how NSS offers great opportunities to serve the society as well as for personal development. the event had the gracious presence of Dr. P.K. Sinha, Director IIITNR, Dr. Neeta Bajpai, NSS Coordinator (C.G.), Dr. Punya Paltani, Dean (Research) IIITNR, Satyendra Sahu, President Awardee NSS Senior Volunteer & Nikhil Kumar, State awardee Senior NSS Volunteer.",
     },
     {
-      blog_img: "./images/blogs/3.png",
+      blog_img: "./assets/gallery/29.jpeg",
       blog_heading: "Plantation Drive, 2022",
       blog_content:
         "Under the aegis of ‘Azadi Ka Amrit Mahotsav’, the NSS unit of IIIT Naya Raipur, organized a plantation drive in the university campus, celebrating 75 years of India’s Independence. Faculty members, non-teaching staff, NSS Volunteers & Officials of the institute actively participated in the drive during which Neem, Guava, Peepal, Almond & Mango tree seedlings and saplings were planted.",

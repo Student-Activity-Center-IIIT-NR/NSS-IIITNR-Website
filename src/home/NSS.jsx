@@ -5,7 +5,7 @@ export const NSS = () => {
     <div className="flex flex-col-reverse md:space-y-0 md:grid md:grid-cols-2 place-content-center place-items-center gap-x-4 pt-10 md:pt-20 px-6 xl:px-10 pb-10 bg-[#332965] bg-opacity-10 ">
       <div className="">
         <img
-          src="./images/carasouel/1.jpg"
+          src="./assets/images/1.jpg"
           className="scale-75 md:scale-y-75  md:scale-x-90 lg:scale-100 w-[588px] h-[362px] aspect-auto rounded-3xl drop-shadow-md shadow-md shadow-black "
           alt=""
         />

@@ -3,9 +3,9 @@ import React, { useState } from "react";
 export const CarouselLanding = () => {
   const [photo, setphoto] = useState(0);
   const Carousel_Images = [
-    "./images/carasouel/3.jpeg",
-    "./images/carasouel/2.jpeg",
-    "./images/carasouel/1.jpg",
+    "./assets/images/2.jpeg",
+    "./assets/images/1.jpg",
+    "./assets/images/3.jpeg",
   ];
 
   const next = () => {
