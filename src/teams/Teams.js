@@ -120,11 +120,11 @@ function Teams() {
             dept="Web Development"
           />
           <Card
-            image={"./assets/team/akash.jpeg"}
-            name={"Akash Trivedi"}
-            linkedin={"https://www.linkedin.com/in/akash-trivedi-bb07ba235/"}
-            twitter={"https://twitter.com/akashtr22810150"}
-            mail={"mailto:akasht21100@iiitnr.edu.in"}
+            image={"./assets/team/gautam.jpeg"}
+            name={"Gautam Sarawagi"}
+            linkedin={"https://www.linkedin.com/in/gautam-sarawagi-64b1b4227/"}
+            twitter={"https://twitter.com/gautamsarawagi_"}
+            mail={"mailto:gautam21100@iiitnr.edu.in"}
             dept="Social Media"
           />
         </div>
