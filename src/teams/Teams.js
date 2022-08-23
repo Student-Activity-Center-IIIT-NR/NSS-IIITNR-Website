@@ -12,7 +12,7 @@ function Teams() {
           <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
             Our Team
           </h1>
-          <p className="max-w-sm text-center text-darkGrayingBlue md:text-left">
+          <p className="max-w-sm text-justify lg:text-center text-darkGrayingBlue md:text-left">
             Our team works under the leadership of NSS Program Officer Lakhindar
             Murmu. Under his guidance the team undertakes a lot of initiatives &
             organises programs aimed at serving the society and nation & towards
@@ -55,7 +55,7 @@ function Teams() {
       <h3 className="text-3xl text-center md:text-5xl mb-6 mt-6">
         Additional Secretary
       </h3>
-      <div className="flex flex-row flex-wrap gap-4 my-10">
+      <div className="flex flex-row gap-4 my-10">
         <Card
           image={"./assets/team/anand.png"}
           name={"Anand Singh"}
@@ -64,7 +64,7 @@ function Teams() {
           mail={"mailto:anand20101@iiitnr.edu.in"}
         />
       </div>
-      <div className="flex flex-row flex-wrap items-center justify-center">
+      <div className="flex flex-col flex-wrap items-center justify-center">
         <h3 className="text-3xl text-center md:text-5xl mb mt-6">
           Cell Secretaries
         </h3>
@@ -117,7 +117,7 @@ function Teams() {
             linkedin={"https://www.linkedin.com/in/rony-joseph-0619bb205"}
             twitter={"https://twitter.com/RonyJos09575199"}
             mail={"mailto:rony20100@iiitnr.edu.in"}
-            dept="Web Development"
+            dept="Web Management"
           />
           <Card
             image={"./assets/team/gautam.jpeg"}
@@ -125,6 +125,14 @@ function Teams() {
             linkedin={"https://www.linkedin.com/in/gautam-sarawagi-64b1b4227/"}
             twitter={"https://twitter.com/gautamsarawagi_"}
             mail={"mailto:gautam21100@iiitnr.edu.in"}
+            dept="Social Media"
+          />
+          <Card
+            image={"./assets/team/akash.jpeg"}
+            name={"Akash Trivedi"}
+            linkedin={"https://www.linkedin.com/in/akash-trivedi-bb07ba235"}
+            twitter={"https://twitter.com/akashtr22810150"}
+            mail={"mailto:akasht21100@iiitnr.edu.in"}
             dept="Social Media"
           />
         </div>

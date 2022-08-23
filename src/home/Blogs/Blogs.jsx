@@ -27,6 +27,12 @@ const Blogs = () => {
       blog_content:
         "Under the aegis of ‘Azadi Ka Amrit Mahotsav’, the NSS unit of IIIT Naya Raipur, organized a plantation drive in the university campus, celebrating 75 years of India’s Independence. Faculty members, non-teaching staff, NSS Volunteers & Officials of the institute actively participated in the drive during which Neem, Guava, Peepal, Almond & Mango tree seedlings and saplings were planted.",
     },
+    {
+      blog_img: "./assets/gallery/61.jpeg",
+      blog_heading: "Education for all",
+      blog_content:
+        "National Service Schemea and Institute Social Responsibility Wing of IIIT-Naya Raipur has been running 'Education for all' campaign in Uparwara village with the help of institute students.",
+    },
   ];
   return (
     <div className="flex flex-col bg-white px-4 lg:px-8 py-10 ">

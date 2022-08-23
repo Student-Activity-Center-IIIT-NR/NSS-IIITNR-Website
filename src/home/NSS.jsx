@@ -17,7 +17,7 @@ export const NSS = () => {
           Work towards the the nation building
         </div>
         <div className="text-md lg:text-lg ">
-          The NSS wing of IIITNR was initiated in the year 20XX with a vision of
+          The NSS wing of IIITNR was initiated in the year 2019 with a vision of
           creating community awareness among the students & developing among
           themselves a sense of social & civic responsibility. It encourages its
           volunteers to utilise their knowledge in generating practical

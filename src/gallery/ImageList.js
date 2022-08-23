@@ -4,7 +4,7 @@ let data = [];
 // on image update in gallery, array length must be updated in for loop.
 
 (() => {
-  for (let i = 1; i < 61; i++) {
+  for (let i = 1; i < 63; i++) {
     data.push({ image: `./assets/gallery/${i}.jpeg` });
   }
 })();

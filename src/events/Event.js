@@ -3,7 +3,7 @@ import React from "react";
 const Event = ({ event_details }) => {
   return (
     <>
-      <div className="container mx-auto py-8">
+      <div className="container mx-auto py-8 mt-8">
         <div className="flex flex-col items-center justify-center mx-4">
           <div className="flex flex-col md:flex-row items-between gap-x-2 gap-y-4 overflow-hidden">
             <img src={event_details.event_img1} className="object-contain rounded md:w-1/2" alt="" />

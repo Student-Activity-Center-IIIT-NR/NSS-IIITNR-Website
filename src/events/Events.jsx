@@ -33,6 +33,13 @@ export const Events = () => {
       event_content:
         "Under the aegis of ‘Azadi Ka Amrit Mahotsav’, the NSS unit of IIIT Naya Raipur, organized a plantation drive in the university campus, celebrating 75 years of India’s Independence. Faculty members, non-teaching staff, NSS Volunteers & Officials of the institute actively participated in the drive during which Neem, Guava, Peepal, Almond & Mango tree seedlings and saplings were planted. The plantation drive, organised in collaboration with ISR was led by Dr. P.K. Sinha, hon’ble director IIITNR & guided by Dr. Punya Paltani, Dean (Research), Dr. Lakhinder Murmu, Program officer of NSS unit, IIITNR & Dr. Mithilesh Chaube. Speaking on the occasion, Dr P.K. Sinha highlighted the importance of planting trees to fight the challenge of global warming and said that the university administration is committed to support all pro-environment initiatives & work towards making the campus greener. He emphasized that planting trees is one of the vital measures to minimize the impacts of climate change & save our environment. The drive created an awareness among the students to improve & take care of the environment they live in. It was an excellent experience for the volunteers who learned about the various steps involved in planting different kinds of trees & taking care of them. They also learned about the benefits these trees add to the environment. They voluntarily took up the responsibility to take care of the planted saplings, & ensure that they are watered and weeded regularly.",
     },
+    {
+      event_img1: "./assets/gallery/1.jpeg",
+      event_img2: "./assets/gallery/61.jpeg",
+      event_heading: "Education for all",
+      event_content:
+        "National Service Scheme and Institute Social Responsibility Wing of IIIT-Naya Raipur has been running the 'Education for all' campaign in Uparwara village with the help of institute students. The campaign is supervised under the faculties of IIIT-Naya Raipur, Dr. Lakhinder Murmu, Dr. Maifuz Ali, and Dr. Mithilesh Kumar Chaube. Pt RSU student Pooja Sharma and students of IIIT-NR Ajeet Ram Verma, Sudhanshu Tripathi, Himanshu Yadav, Govind, Prasad, Kamal Kumar Sinha, Deepraj Choudhary, Anand Singh, along with other NSS active volunteers. The campaign has been running at Sahu Bhawan near Mata Karma temple at Uparwara village. As a part of the campaign, classes are conducted here every Saturday and Sunday from 3 pm to 5 pm. Under this campaign, about 100 to 150 students from class 5th to 12th are getting benefits.",
+    },
   ];
   return (
     <>
