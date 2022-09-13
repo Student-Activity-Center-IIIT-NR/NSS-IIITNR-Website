@@ -11,7 +11,7 @@ const Blogs = () => {
     },
     
     {
-      blog_img: "./assets/gallery/30.jpeg",
+      blog_img: "./assets/gallery/44.jpeg",
       blog_heading: "NSS ORIENTATION PROGRAMME 2022",
       blog_content:
         `NSS unit of IIIT Naya Raipur organized a first-of-its-kind NSS Orientation program for the BTech batch 2021. The program aimed at educating the new NSS volunteers about how NSS offers excellent opportunities to serve society and personal development. The event had the gracious presence of Dr. P K Sinha, Director IIIT Naya Raipur, Dr. Neeta Bajpai, NSS Coordinator (C.G.), Dr. Punya Paltani, Dean (Research) IIIT Naya Raipur, Mr. Satyendra Sahu, President Awardee and NSS senior volunteer and Mr. Nikhil Kumar, State awardee and NSS senior volunteer.`,

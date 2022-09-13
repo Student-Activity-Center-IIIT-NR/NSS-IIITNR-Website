@@ -9,8 +9,8 @@ const Event = ({ event_details }) => {
             {event_details.event_heading}
           </h3>
           <div className="flex flex-col md:flex-row items-between gap-x-2 gap-y-4 overflow-hidden">
-            <img src={event_details.event_img1} className="object-fit rounded md:w-1/2" alt="" />
-            <img src={event_details.event_img2} className="object-fit rounded md:w-1/2" alt="" />
+            <img src={event_details.event_img1} className="object-cover rounded md:w-1/2" alt="" />
+            <img src={event_details.event_img2} className="object-cover rounded md:w-1/2" alt="" />
           </div>
           <p className="text-sm md:text-lg lg:text-lg py-2 lg:py-2 text-justify">
             {event_details.event_content}
