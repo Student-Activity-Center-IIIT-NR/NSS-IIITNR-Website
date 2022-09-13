@@ -3,40 +3,37 @@ import { BlogCard } from "./BlogCard";
 
 const Blogs = () => {
   const blog = [
-    {
-      blog_img: "./assets/gallery/4.jpeg",
-      blog_heading: "World Environment Day, 2022",
+      {
+      blog_img: "./assets/gallery/21.jpeg",
+      blog_heading: "Plantation Drive 2022",
       blog_content:
-        "The NSS unit of IIIT-Naya Raipur, in collaboration with ISR, organized a plantation drive in the university campus on the occasion of World Environment Day. Dr. Lakhinder Murmu, NSS Program Officer, led the team of NSS volunteers who gave a message for environmental protection by planting saplings, watering plants & running a cleanliness campaign around the university premises.",
+        "In collaboration with the Institute Social Responsibility (ISR) team, the NSS unit of IIIT Naya Raipur organized a plantation drive on the institute campus during World Environment Day. Dr. Lakhinder Murmu, NSS Program Officer, led the team of NSS volunteers who gave a message for environmental protection by planting saplings, watering plants, and running a cleanliness campaign around the institute premises.",
     },
-    {
-      blog_img: "./assets/gallery/56.jpeg",
-      blog_heading: "NIC, Raipur, 2022",
-      blog_content:
-        "The NSS unit of IIIT-NR collaborated with Pt. Ravishankar Shukla University in hosting the National Integration Camp at Raipur from 21st to 27th May, 2022. NSS Volunteers from 12 states across the country participated in the camp which turned out to be a splendid display of different cultures of India. A lot of competitions, cultural & sport events were organized in the camp which helped the volunteers learn about the diverse cultures of our nation & foster the spirit of national integration. Dr. Lakhinder Murmu, NSS Program officer for IIIT-NR, addressed the social media workshop organized during the camp.",
-    },
+    
     {
       blog_img: "./assets/gallery/30.jpeg",
-      blog_heading: "NSS ORIENTATION PROGRAMME, 2022",
+      blog_heading: "NSS ORIENTATION PROGRAMME 2022",
       blog_content:
-        "NSS unit of IIIT-Naya Raipur organized a first of its kind NSS Orientation program for the BTech batch 2021.The program aimed at educating the new NSS volunteers about how NSS offers great opportunities to serve the society as well as for personal development. the event had the gracious presence of Dr. P.K. Sinha, Director IIITNR, Dr. Neeta Bajpai, NSS Coordinator (C.G.), Dr. Punya Paltani, Dean (Research) IIITNR, Satyendra Sahu, President Awardee NSS Senior Volunteer & Nikhil Kumar, State awardee Senior NSS Volunteer.",
+        `NSS unit of IIIT Naya Raipur organized a first-of-its-kind NSS Orientation program for the BTech batch 2021. The program aimed at educating the new NSS volunteers about how NSS offers excellent opportunities to serve society and personal development. The event had the gracious presence of Dr. P K Sinha, Director IIIT Naya Raipur, Dr. Neeta Bajpai, NSS Coordinator (C.G.), Dr. Punya Paltani, Dean (Research) IIIT Naya Raipur, Mr. Satyendra Sahu, President Awardee and NSS senior volunteer and Mr. Nikhil Kumar, State awardee and NSS senior volunteer.`,
+    },
+    
+    {
+      blog_img: "./assets/gallery/58.jpeg",
+      blog_heading: "NIC Raipur 2022",
+      blog_content:
+        "The NSS unit of IIIT NAYA RAIPUR collaborated with Pt. Ravishankar Shukla University hosted the National Integration Camp at Raipur from 21st to the 27th of May 2022. NSS Volunteers from twelve states across the country participated in the camp, which was a splendid display of the different cultures of India. Many competitions and cultural and sports events were organized in the center, which helped the volunteers learn about our nation’s diverse cultures and foster the spirit of national integration. Dr. Lakhinder Murmu, NSS Program officer for IIIT Naya Raipur, addressed the social media workshop organized during the camp.",
     },
     {
-      blog_img: "./assets/gallery/29.jpeg",
-      blog_heading: "Plantation Drive, 2022",
+      blog_img: "./assets/gallery/1.jpeg",
+      blog_heading: "Education For All",
       blog_content:
-        "Under the aegis of ‘Azadi Ka Amrit Mahotsav’, the NSS unit of IIIT Naya Raipur, organized a plantation drive in the university campus, celebrating 75 years of India’s Independence. Faculty members, non-teaching staff, NSS Volunteers & Officials of the institute actively participated in the drive during which Neem, Guava, Peepal, Almond & Mango tree seedlings and saplings were planted.",
-    },
-    {
-      blog_img: "./assets/gallery/61.jpeg",
-      blog_heading: "Education for all",
-      blog_content:
-        "National Service Schemea and Institute Social Responsibility Wing of IIIT-Naya Raipur has been running 'Education for all' campaign in Uparwara village with the help of institute students.",
+        "National Service Scheme and Institute Social Responsibility Wing of IIIT Naya Raipur has been running the Education for all campaign in Uparwara village with the help of institute students. The campaign is running under the supervision of the faculties of IIIT Naya Raipur, Dr. Lakhinder Murmu, Dr. Maifuz Ali, and Dr. Mithilesh Kumar Chaube, Pt. RSU student Pooja Sharma and students of IIIT Naya Raipur Ajeet Ram Verma, Sudhanshu Tripathi, Himanshu Yadav, Govind, Prasad, Kamal Kumar Sinha, Deepraj Choudhary, Anand Singh, along with other NSS active volunteers.",
     },
   ];
   return (
-    <div className="flex flex-col bg-white px-4 lg:px-8 py-10 ">
-      <div className="text-2xl lg:text-4xl font-semibold uppercase pb-8">
+    <>
+    <div className="bg-[#e12129] bg-opacity-10 flex flex-col bg-white px-4 lg:px-8 py-10 ">
+      <div className="container mx-4 lg:mx-12 text-2xl lg:text-4xl font-semibold uppercase pb-8">
         BLOGS
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 xl:gap-y-8 xl:grid-cols-3 place-content-between place-items-stretch">
@@ -45,6 +42,7 @@ const Blogs = () => {
         })}
       </div>
     </div>
+    </>
   );
 };
 

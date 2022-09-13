@@ -11,10 +11,7 @@ export const GoalsVision = () => {
             <span className="text-[#332965]">Vision</span>
           </div>
           <div className="w-fit lg:w-[40%] text-lg md:text-xl text-start ">
-            The vision is to build the youth with the mind and spirit to serve
-            the society and work for the social uplift of down-trodden masses of
-            our nation as a movement. To identify the needs and problems of the
-            community and involve them in problem-solving
+          The vision is to build the youth with the mind and spirit to serve society and work for the social upliftment of downtrodden sections of our society. NSS encourages volunteers to identify the needs and problems of the community and work towards solving them.
           </div>
         </div>
         <div className="hidden lg:block">
@@ -70,12 +67,7 @@ export const GoalsVision = () => {
 
         <div className="flex lg:flex-row flex-col-reverse col-span-1 lg:w-[55%]">
           <div className="text-lg md:text-xl lg:-mr-40 lg:mt-[5.25rem] text-start md:text-right">
-            The National Service Scheme has been functioning with the motto “NOT
-            ME BUT YOU” in view of making the youth inspired in service of the
-            people and hence NSS Aims Education through Community Service and
-            Community Service through Education. IT aims to develop capacity to
-            meet emergencies and natural disasters and practise national
-            integration and social harmony
+          NSS aims for Education through Community Service and Community Service through Education. We aim to develop the capacity to meet emergencies and natural disasters and practice national integration and social harmony. Our objectives include fostering spirits of brotherhood and cooperation.
           </div>
           <div className="text-3xl  lg:text-6xl lg:rotate-90 font-semibold whitespace-pre text-start md:text-right lg:text-start">
             <span className="text-[#E12129] ">Our</span>{" "}
