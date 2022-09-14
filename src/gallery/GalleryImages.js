@@ -18,7 +18,7 @@ const GalleryImages = ({ max }) => {
       let image = `/assets/gallery/${dir}/${i}.jpeg`;
       let res = await fetch(image);
       if (!res.headers.get("content-type").startsWith("image/")) break;
-      setData(curr => [...curr, { image }]);
+      setData((curr) => [...curr, { image }]);
     }
   };
 

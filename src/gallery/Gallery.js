@@ -24,37 +24,37 @@ const Gallery = () => {
               annot={"Independence Day 2022"}
             />
             <GalleryCard
-              link={"/"}
+              link={"/gallery/orientation2022"}
               src="./assets/gallery/orientation2022/1.jpeg"
               annot={"Orientation 2022"}
             />
             <GalleryCard
-              link={"/"}
+              link={"/gallery/nic2022"}
               src="./assets/gallery/nic2022/1.jpeg"
               annot={"NIC 2022"}
             />
             <GalleryCard
-              link={"/"}
+              link={"/gallery/eduforall"}
               src="./assets/gallery/eduforall/1.jpeg"
               annot={"Education For All"}
             />
             <GalleryCard
-              link={"/"}
+              link={"/gallery/plantation2021"}
               src="./assets/gallery/plantation2021/1.jpeg"
               annot={"Plantation Drive 2021"}
             />
             <GalleryCard
-              link={"/"}
+              link={"/gallery/netajijayanti"}
               src="./assets/gallery/netajijayanti/3.jpeg"
               annot={"Subhas Chandra Bose Jayanti"}
             />
             <GalleryCard
-              link={"/"}
+              link={"/gallery/fitindia"}
               src="./assets/gallery/fitindia/1.jpeg"
               annot={"Fit India 2020"}
             />
             <GalleryCard
-              link={"/"}
+              link={"/gallery/gandhijayanti"}
               src="./assets/gallery/gandhijayanti/1.jpeg"
               annot={"Gandhi Jayanti"}
             />
