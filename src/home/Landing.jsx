@@ -27,7 +27,7 @@ export const Landing = () => {
         <div>
           <div className="rounded-2xl py-2">
             <img
-              src={"./assets/images/frontview.jpeg"}
+              src={"/assets/images/frontview.jpeg"}
               className="w-full object-contain h-full rounded-lg"
               alt=""
             />

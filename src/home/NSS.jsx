@@ -5,7 +5,7 @@ export const NSS = () => {
     <div className="flex flex-col-reverse md:space-y-0 md:grid md:grid-cols-2 place-content-center place-items-center gap-x-4 pt-10 md:pt-20 px-6 xl:px-10 pb-10 bg-[#332965] bg-opacity-10 ">
       <div className="h-full">
         <img
-          src="./assets/images/institute_birdeye.jpeg"
+          src="/assets/images/institute_birdeye.jpeg"
           className="h-full object-fit rounded-xl"
           alt=""
         />

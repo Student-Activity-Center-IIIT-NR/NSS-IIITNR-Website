@@ -21,13 +21,13 @@ const Card = ({ image, name, linkedin, twitter, mail, dept }) => {
         )}
         <div className="flex flex-row max-w-sm mx-auto items-center justify-center space-x-6 py-6">
           <a href={linkedin} target="_blank" rel="noreferrer">
-            <img src="./assets/linkedin.svg" className="h-8" alt="" />
+            <img src="/assets/linkedin.svg" className="h-8" alt="" />
           </a>
           <a href={twitter} target="_blank" rel="noreferrer">
-            <img src="./assets/twitter.svg" className="h-8" alt="" />
+            <img src="/assets/twitter.svg" className="h-8" alt="" />
           </a>
           <a href={mail}>
-            <img src="./assets/email.svg" className="h-8" alt="" />
+            <img src="/assets/email.svg" className="h-8" alt="" />
           </a>
         </div>
       </div>

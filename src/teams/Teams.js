@@ -22,7 +22,7 @@ function Teams() {
             </p>
           </div>
           <div className="md:w-1/2">
-            <img src="./assets/Rectangle.png" alt="" />
+            <img src="/assets/Rectangle.png" alt="" />
           </div>
         </div>
         <div className="container flex flex-col items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
@@ -31,7 +31,7 @@ function Teams() {
               Program Officer
             </h1>
             <Card
-              image={"./assets/team/lakhindar.jpeg"}
+              image={"/assets/team/lakhindar.jpeg"}
               name={"Dr. Lakhindar Murmu"}
               linkedin={"https://www.linkedin.com/in/lakhindar-murmu-2b76111b/"}
               twitter={"https://twitter.com/murmu_kgec25"}
@@ -45,7 +45,7 @@ function Teams() {
               General Secretary
             </h4>
             <Card
-              image={"./assets/team/sudhanshu.png"}
+              image={"/assets/team/sudhanshu.png"}
               name={"Mr. Sudhanshu Tripathi"}
               linkedin={"https://www.linkedin.com/in/sudhanshu1309/"}
               twitter={"https://twitter.com/sudhanshutweets"}
@@ -57,7 +57,7 @@ function Teams() {
               Additional Secretary
             </h4>
             <Card
-              image={"./assets/team/anand.png"}
+              image={"/assets/team/anand.png"}
               name={"Mr. Anand Singh"}
               linkedin={"https://www.linkedin.com/in/anand-singh-16b245225/"}
               twitter={"https://twitter.com/Aksingh_55"}
@@ -71,7 +71,7 @@ function Teams() {
           </h3>
           <div className="flex flex-row flex-wrap gap-4 my-10">
             <Card
-              image={"./assets/team/ajeet.jpeg"}
+              image={"/assets/team/ajeet.jpeg"}
               name={"Mr. Ajeet Ram Verma"}
               linkedin={
                 "https://www.linkedin.com/in/ajeet-ram-verma-953605244/"
@@ -81,7 +81,7 @@ function Teams() {
               dept={"Rural Transformation through Education"}
             />
             <Card
-              image={"./assets/team/navneet.jpeg"}
+              image={"/assets/team/navneet.jpeg"}
               name={"Mr. Navneet Chaubey"}
               linkedin={
                 "https://www.linkedin.com/in/navneet-kumar-chaubey-3702b9244/"
@@ -91,7 +91,7 @@ function Teams() {
               dept="Events"
             />
             <Card
-              image={"./assets/team/paridhi.jpeg"}
+              image={"/assets/team/paridhi.jpeg"}
               name={"Ms. Paridhi Chauhan"}
               linkedin={
                 "https://www.linkedin.com/in/paridhi-chauhan-924bb9223/"
@@ -101,7 +101,7 @@ function Teams() {
               dept="Content"
             />
             <Card
-              image={"./assets/team/ganesh.jpeg"}
+              image={"/assets/team/ganesh.jpeg"}
               name={"Mr. Ganesh Prajapati"}
               linkedin={
                 "https://www.linkedin.com/in/ganesh-prajapati-25577222b/"
@@ -111,7 +111,7 @@ function Teams() {
               dept="Design"
             />
             <Card
-              image={"./assets/team/saumya.jpeg"}
+              image={"/assets/team/saumya.jpeg"}
               name={"Ms. Saumya Singh"}
               linkedin={"https://www.linkedin.com/in/saumya-singh-5237b6203/"}
               twitter={"https://twitter.com/saumyas83388904"}
@@ -119,7 +119,7 @@ function Teams() {
               dept="Women Empowerment"
             />
             <Card
-              image={"./assets/team/rony.jpeg"}
+              image={"/assets/team/rony.jpeg"}
               name={"Mr. Rony Joseph"}
               linkedin={"https://www.linkedin.com/in/rony-joseph-0619bb205"}
               twitter={"https://twitter.com/RonyJos09575199"}
@@ -127,7 +127,7 @@ function Teams() {
               dept="Web Management"
             />
             <Card
-              image={"./assets/team/gautam.jpeg"}
+              image={"/assets/team/gautam.jpeg"}
               name={"Mr. Gautam Sarawagi"}
               linkedin={
                 "https://www.linkedin.com/in/gautam-sarawagi-64b1b4227/"
@@ -137,7 +137,7 @@ function Teams() {
               dept="Social Media"
             />
             <Card
-              image={"./assets/team/akash.jpeg"}
+              image={"/assets/team/akash.jpeg"}
               name={"Mr. Akash Trivedi"}
               linkedin={"https://www.linkedin.com/in/akash-trivedi-bb07ba235"}
               twitter={"https://twitter.com/akashtr22810150"}

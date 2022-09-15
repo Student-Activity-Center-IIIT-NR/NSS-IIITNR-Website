@@ -15,47 +15,47 @@ const Gallery = () => {
           <div className="flex flex-row flex-wrap mx-2 gap-x-4 gap-y-6 items-start justify-center text-center pb-8">
             <GalleryCard
               link={"/gallery/plantation2022"}
-              src="./assets/gallery/plantation2022/1.jpeg"
+              src="/assets/gallery/plantation2022/1.jpeg"
               annot={"Plantation Drive 2022"}
             />
             <GalleryCard
               link={"/gallery/independence2022"}
-              src="./assets/gallery/independence2022/3.jpeg"
+              src="/assets/gallery/independence2022/3.jpeg"
               annot={"Independence Day 2022"}
             />
             <GalleryCard
               link={"/gallery/orientation2022"}
-              src="./assets/gallery/orientation2022/1.jpeg"
+              src="/assets/gallery/orientation2022/1.jpeg"
               annot={"Orientation 2022"}
             />
             <GalleryCard
               link={"/gallery/nic2022"}
-              src="./assets/gallery/nic2022/1.jpeg"
+              src="/assets/gallery/nic2022/1.jpeg"
               annot={"NIC 2022"}
             />
             <GalleryCard
               link={"/gallery/eduforall"}
-              src="./assets/gallery/eduforall/1.jpeg"
+              src="/assets/gallery/eduforall/1.jpeg"
               annot={"Education For All"}
             />
             <GalleryCard
               link={"/gallery/plantation2021"}
-              src="./assets/gallery/plantation2021/1.jpeg"
+              src="/assets/gallery/plantation2021/1.jpeg"
               annot={"Plantation Drive 2021"}
             />
             <GalleryCard
               link={"/gallery/netajijayanti"}
-              src="./assets/gallery/netajijayanti/3.jpeg"
+              src="/assets/gallery/netajijayanti/3.jpeg"
               annot={"Subhas Chandra Bose Jayanti"}
             />
             <GalleryCard
               link={"/gallery/fitindia"}
-              src="./assets/gallery/fitindia/1.jpeg"
+              src="/assets/gallery/fitindia/1.jpeg"
               annot={"Fit India 2020"}
             />
             <GalleryCard
               link={"/gallery/gandhijayanti"}
-              src="./assets/gallery/gandhijayanti/1.jpeg"
+              src="/assets/gallery/gandhijayanti/1.jpeg"
               annot={"Gandhi Jayanti"}
             />
           </div>

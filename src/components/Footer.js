@@ -27,15 +27,15 @@ const Footer = () => {
               <p className="text-2xl lg:text-4xl">Contact Us</p>
               <div className="flex flex-col gap-y-4 text-lg md:text-xl lg:text-2xl">
                 <div className="flex flex-row items-center gap-x-3">
-                  <img className="w-6" src="./assets/location.svg" alt="" />
+                  <img className="w-6" src="/assets/location.svg" alt="" />
                   <p>NSS Office, IIIT Naya Raipur</p>
                 </div>
                 <div className="flex flex-row items-center gap-x-3">
-                  <img className="w-6" src="./assets/email.svg" alt="" />
+                  <img className="w-6" src="/assets/email.svg" alt="" />
                   <a href="mailto:nss@iiitnr.edu.in">nss@iiitnr.edu.in</a>
                 </div>
                 <div className="flex flex-row items-center gap-x-3">
-                  <img className="w-6" src="./assets/call.svg" alt="" />
+                  <img className="w-6" src="/assets/call.svg" alt="" />
                   <a
                     href="tel:+917712474038"
                     className="md:text-lg lg:text-2xl"
