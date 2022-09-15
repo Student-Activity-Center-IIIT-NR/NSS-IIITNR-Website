@@ -75,7 +75,7 @@ const Footer = () => {
           <hr className="mx-4 mx-auto h-1 bg-[#E12129] my-4" />
           <div className="flex flex-row justify-center items-center gap-x-4">
             <a href="/" rel="noreferrer" target={"_blank"}>
-              <img className="w-8" src="./assets/facebook.svg" alt="" />
+              <img className="w-8" src="/assets/facebook.svg" alt="" />
             </a>
 
             <a
