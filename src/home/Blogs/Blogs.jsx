@@ -32,7 +32,7 @@ const Blogs = () => {
   ];
   return (
     <>
-    <div className="bg-[#e12129] bg-opacity-10 flex flex-col bg-white px-4 lg:px-8 py-10 ">
+    <div className="bg-[#e12129] bg-opacity-10 flex flex-col px-4 lg:px-8 py-10 ">
       <div className="container mx-4 lg:mx-12 text-2xl lg:text-4xl font-semibold uppercase pb-8">
         BLOGS
       </div>
