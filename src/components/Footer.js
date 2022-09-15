@@ -83,17 +83,17 @@ const Footer = () => {
               rel="noreferrer"
               target={"_blank"}
             >
-              <img className="w-8" src="./assets/instagram.svg" alt="" />
+              <img className="w-8" src="/assets/instagram.svg" alt="" />
             </a>
             <a
               href="https://twitter.com/NSS_IIITNR"
               rel="noreferrer"
               target={"_blank"}
             >
-              <img className="w-8" src="./assets/twitter.svg" alt="" />
+              <img className="w-8" src="/assets/twitter.svg" alt="" />
             </a>
             <a href="/" rel="noreferrer" target={"_blank"}>
-              <img className="w-8" src="./assets/linkedin.svg" alt="" />
+              <img className="w-8" src="/assets/linkedin.svg" alt="" />
             </a>
           </div>
         </div>
