@@ -1,7 +1,9 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const GalleryImages = ({ max }) => {
   const { dir } = useParams();
@@ -25,6 +27,7 @@ const GalleryImages = ({ max }) => {
   console.log(data);
   return (
     <>
+      <Navbar display="bg-[#E5E5E5]" />
       <section className="overflow-hidden text-gray-700 mb-4">
         <div className="container px-5 py-2 mx-auto lg:pt-8 lg:px-16">
           <div className="flex flex-wrap -m-1 md:-m-2">
@@ -47,6 +50,7 @@ const GalleryImages = ({ max }) => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

@@ -14,7 +14,7 @@ const Navbar = ({ display = "" }) => {
             <Link to="/">
               <div className="pt-2 flex flex-row items-center">
                 <img
-                  src="./assets/nss_logo.png"
+                  src="/assets/nss_logo.png"
                   className="w-11 h-11 lg:w-20 lg:h-20"
                   alt="NSS Logo"
                 />
