@@ -7,7 +7,7 @@ const Blogs = () => {
       blog_img: "/assets/gallery/plantation2022/1.jpeg",
       blog_heading: "Plantation Drive 2022",
       blog_content:
-        "In collaboration with the Institute Social Responsibility (ISR) team, the NSS unit of IIIT Naya Raipur organized a plantation drive on the institute campus during World Environment Day. Dr. Lakhinder Murmu, NSS Program Officer, led the team of NSS volunteers who gave a message for environmental protection by planting saplings, watering plants, and running a cleanliness campaign around the institute premises.",
+        "In collaboration with the Institute Social Responsibility (ISR) team, the NSS unit of IIIT Naya Raipur organized a plantation drive on the institute campus during World Environment Day. Dr. Lakhindar Murmu, NSS Program Officer, led the team of NSS volunteers who gave a message for environmental protection by planting saplings, watering plants, and running a cleanliness campaign around the institute premises.",
     },
     
     {
@@ -21,13 +21,13 @@ const Blogs = () => {
       blog_img: "/assets/gallery/nic2022/1.jpeg",
       blog_heading: "NIC Raipur 2022",
       blog_content:
-        "The NSS unit of IIIT NAYA RAIPUR collaborated with Pt. Ravishankar Shukla University hosted the National Integration Camp at Raipur from 21st to the 27th of May 2022. NSS Volunteers from twelve states across the country participated in the camp, which was a splendid display of the different cultures of India. Many competitions and cultural and sports events were organized in the center, which helped the volunteers learn about our nation’s diverse cultures and foster the spirit of national integration. Dr. Lakhinder Murmu, NSS Program officer for IIIT Naya Raipur, addressed the social media workshop organized during the camp.",
+        "The NSS unit of IIIT NAYA RAIPUR collaborated with Pt. Ravishankar Shukla University hosted the National Integration Camp at Raipur from 21st to the 27th of May 2022. NSS Volunteers from twelve states across the country participated in the camp, which was a splendid display of the different cultures of India. Many competitions and cultural and sports events were organized in the center, which helped the volunteers learn about our nation’s diverse cultures and foster the spirit of national integration. Dr. Lakhindar Murmu, NSS Program officer for IIIT Naya Raipur, addressed the social media workshop organized during the camp.",
     },
     {
       blog_img: "/assets/gallery/eduforall/1.jpeg",
       blog_heading: "Education For All",
       blog_content:
-        "National Service Scheme and Institute Social Responsibility Wing of IIIT Naya Raipur has been running the Education for all campaign in Uparwara village with the help of institute students. The campaign is running under the supervision of the faculties of IIIT Naya Raipur, Dr. Lakhinder Murmu, Dr. Maifuz Ali, and Dr. Mithilesh Kumar Chaube, Pt. RSU student Pooja Sharma and students of IIIT Naya Raipur Ajeet Ram Verma, Sudhanshu Tripathi, Himanshu Yadav, Govind, Prasad, Kamal Kumar Sinha, Deepraj Choudhary, Anand Singh, along with other NSS active volunteers.",
+        "National Service Scheme and Institute Social Responsibility Wing of IIIT Naya Raipur has been running the Education for all campaign in Uparwara village with the help of institute students. The campaign is running under the supervision of the faculties of IIIT Naya Raipur, Dr. Lakhindar Murmu, Dr. Maifuz Ali, and Dr. Mithilesh Kumar Chaube, Pt. RSU student Ms. Pooja Sharma and students of IIIT Naya Raipur Ajeet Ram Verma, Sudhanshu Tripathi, Himanshu Yadav, Govind, Prasad, Kamal Kumar Sinha, Deepraj Choudhary, Anand Singh, along with other NSS active volunteers.",
     },
   ];
   return (

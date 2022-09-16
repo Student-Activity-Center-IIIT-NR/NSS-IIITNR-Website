@@ -9,19 +9,35 @@ export const Landing = () => {
             IIIT Naya Raipur
           </div>
           <div className=" text-base sm:text-xl lg:text-2xl font-semibold">
-            Works towards the the nation building
+            Works towards the nation building
           </div>
           <div className="text-sm sm:text-md lg:text-lg text-justify">
-            IIIT Naya Raipur, established by the International Institute of
-            Information Technology University Act, 2013 of the Government of
-            Chhattisgarh, is a joint venture by Chhattisgarh State Government
-            and National Thermal Power Corporation (NTPC). The Institute is
-            committed to pursuing excellence in higher education, research, and
-            development in Information Technology (IT) and associated
-            disciplines. It believes in bestowing knowledge dissemination and
-            imparting entrepreneurial skills to the students to enable them to
-            address real-world problems. The Institute is constantly achieving
-            new heights in areas of research and innovation.
+            <p>
+              Dr. SPM IIIT Naya Raipur, established by the International
+              Institute of Information Technology University Act, 2013 of the
+              Government of Chhattisgarh, is a joint venture by Chhattisgarh
+              State Government and National Thermal Power Corporation (NTPC).
+              The institute is committed to pursue excellence in higher
+              education, research and development in Information Technology (IT)
+              and associated disciplines. It firmly believes in bestowing
+              knowledge dissemination and imparting entrepreneurial skills to
+              the students to enable them to address real world problems. To
+              empower this vision, IIIT-NR fosters state-of-the-art research and
+              product development laboratories to carry out inter-disciplinary
+              research and product development endeavours.
+            </p>
+            <p>
+              Dr. SPM IIIT-NR's fifty-acres residential campus is located in the
+              newly developed smart city of Atal Nagar, approximately 23 kms
+              from the city of Raipur. The vibrant lush green campus of IIIT-NR
+              is enabled with Wi-Fi connectivity, CCTV surveillance, hi tech
+              security measures and excellent amenities for sports and other
+              recreational activities. The modern architecture of the buildings
+              and the serene environment of the campus fosters an ambience for
+              the students for creativity and innovation. The classrooms are
+              equipped with state-of-the art technologies for teaching and
+              learning.
+            </p>
           </div>
         </div>
         <div>

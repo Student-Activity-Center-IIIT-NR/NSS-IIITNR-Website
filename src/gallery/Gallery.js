@@ -21,7 +21,7 @@ const Gallery = () => {
             <GalleryCard
               link={"/gallery/independence2022"}
               src="/assets/gallery/independence2022/3.jpeg"
-              annot={"Independence Day 2022"}
+              annot={"Independence Day at adopted village Uparwara 2022"}
             />
             <GalleryCard
               link={"/gallery/orientation2022"}
