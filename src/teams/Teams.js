@@ -88,7 +88,7 @@ function Teams() {
               }
               twitter={"https://twitter.com/navneetchaubey_"}
               mail={"mailto:navneet21100@iiitnr.edu.in"}
-              dept="Events"
+              dept="Events Coordinator"
             />
             <Card
               image={"/assets/team/paridhi.jpeg"}
@@ -101,13 +101,23 @@ function Teams() {
               dept="Content"
             />
             <Card
-              image={"/assets/team/ganesh.jpeg"}
-              name={"Mr. Ganesh Prajapati"}
+              image={"/assets/team/vishal.jpeg"}
+              name={"Mr. Vishal Bais"}
               linkedin={
-                "https://www.linkedin.com/in/ganesh-prajapati-25577222b/"
+                "https://www.linkedin.com/in/vishal-raj-bais-6b40ba230"
               }
-              twitter={"https://twitter.com/GaneshP33886198"}
-              mail={"mailto:ganesh21101@iiitnr.edu.in"}
+              twitter={"https://twitter.com/Vishal3102"}
+              mail={"mailto:vishal21101@iiitnr.edu.in"}
+              dept="Design"
+            />
+            <Card
+              image={"/assets/team/priyanshu.jpeg"}
+              name={"Mr. Priyanshu Sidar"}
+              linkedin={
+                "https://www.linkedin.com/in/priyanshu-sidar-639914144"
+              }
+              twitter={"https://twitter.com/Sidar3Sidar"}
+              mail={"mailto:priyanshu21100@iiitnr.edu.in"}
               dept="Design"
             />
             <Card

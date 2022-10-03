@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -73,28 +74,37 @@ const Footer = () => {
             </div>
           </div>
           <hr className="mx-4 mx-auto h-1 bg-[#E12129] my-4" />
-          <div className="flex flex-row justify-center items-center gap-x-4">
-            <a href="/" rel="noreferrer" target={"_blank"}>
-              <img className="w-8" src="/assets/facebook.svg" alt="" />
-            </a>
-
-            <a
-              href="https://www.instagram.com/nss_iiitnr/"
-              rel="noreferrer"
-              target={"_blank"}
-            >
-              <img className="w-8" src="/assets/instagram.svg" alt="" />
-            </a>
-            <a
-              href="https://twitter.com/NSS_IIITNR"
-              rel="noreferrer"
-              target={"_blank"}
-            >
-              <img className="w-8" src="/assets/twitter.svg" alt="" />
-            </a>
-            <a href="/" rel="noreferrer" target={"_blank"}>
-              <img className="w-8" src="/assets/linkedin.svg" alt="" />
-            </a>
+          <div className="container mx-auto">
+            <div className="flex flex-col  md:flex-row items-center justify-between mx-4 gap-y-3">
+              <Link to="/developers" className="hover:underline">
+                Meet the Developers
+              </Link>
+              <div className="text-center">
+                &copy; 2022 NSS IIIT Naya Raipur. All Rights Reserved.
+              </div>
+              <div className="flex flex-row justify-center items-center gap-x-4">
+                <a href="/" rel="noreferrer" target={"_blank"}>
+                  <img className="w-8" src="/assets/facebook.svg" alt="" />
+                </a>
+                <a
+                  href="https://www.instagram.com/nss_iiitnr/"
+                  rel="noreferrer"
+                  target={"_blank"}
+                >
+                  <img className="w-8" src="/assets/instagram.svg" alt="" />
+                </a>
+                <a
+                  href="https://twitter.com/NSS_IIITNR"
+                  rel="noreferrer"
+                  target={"_blank"}
+                >
+                  <img className="w-8" src="/assets/twitter.svg" alt="" />
+                </a>
+                <a href="/" rel="noreferrer" target={"_blank"}>
+                  <img className="w-8" src="/assets/linkedin.svg" alt="" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import Error from "./components/Error";
 import Home from "./home/Home";
 import { Events } from "./events/Events";
 import GalleryImages from "./gallery/GalleryImages";
+import Developers from "./components/Developers";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         </Route>
         <Route exact path="/team" element={<Teams />} />
         <Route exact path="/events" element={<Events />} />
+        <Route exact path="/developers" element={<Developers />} />
         <Route exact path="/*" element={<Error />} />
       </Routes>
     </BrowserRouter>
