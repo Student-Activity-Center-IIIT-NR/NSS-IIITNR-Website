@@ -81,6 +81,14 @@ function Teams() {
               dept={"Rural Transformation through Education"}
             />
             <Card
+              image={"/assets/team/bhumika.jpeg"}
+              name={"Ms. Bhumika Rao"}
+              linkedin={"https://www.linkedin.com/in/a-bhumika-rao-3186a1229/"}
+              twitter={"https://twitter.com/a_rao1"}
+              mail={"mailto:bhumika21102@iiitnr.edu.in"}
+              dept={"Events Coordinator"}
+            />
+            <Card
               image={"/assets/team/navneet.jpeg"}
               name={"Mr. Navneet Chaubey"}
               linkedin={
@@ -103,9 +111,7 @@ function Teams() {
             <Card
               image={"/assets/team/vishal.jpeg"}
               name={"Mr. Vishal Bais"}
-              linkedin={
-                "https://www.linkedin.com/in/vishal-raj-bais-6b40ba230"
-              }
+              linkedin={"https://www.linkedin.com/in/vishal-raj-bais-6b40ba230"}
               twitter={"https://twitter.com/Vishal3102"}
               mail={"mailto:vishal21101@iiitnr.edu.in"}
               dept="Design"
@@ -113,9 +119,7 @@ function Teams() {
             <Card
               image={"/assets/team/priyanshu.jpeg"}
               name={"Mr. Priyanshu Sidar"}
-              linkedin={
-                "https://www.linkedin.com/in/priyanshu-sidar-639914144"
-              }
+              linkedin={"https://www.linkedin.com/in/priyanshu-sidar-639914144"}
               twitter={"https://twitter.com/Sidar3Sidar"}
               mail={"mailto:priyanshu21100@iiitnr.edu.in"}
               dept="Design"

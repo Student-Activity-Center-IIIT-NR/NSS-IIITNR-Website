@@ -24,7 +24,6 @@ const GalleryImages = ({ max }) => {
     }
   };
 
-  console.log(data);
   return (
     <>
       <Navbar display="bg-[#E5E5E5]" />

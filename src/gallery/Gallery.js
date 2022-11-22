@@ -14,6 +14,16 @@ const Gallery = () => {
         <section className="container mx-auto py-4 mt-4 rounded">
           <div className="flex flex-row flex-wrap mx-2 gap-x-4 gap-y-6 items-start justify-center text-center pb-8">
             <GalleryCard
+              link={"/gallery/bloodDC2022"}
+              src="/assets/gallery/bloodDC2022/3.jpeg"
+              annot={"Blood Donation Camp 2022"}
+            />
+            <GalleryCard
+              link={"/gallery/run4unity2022"}
+              src="/assets/gallery/run4unity2022/1.jpeg"
+              annot={"Run For Unity 2022"}
+            />
+            <GalleryCard
               link={"/gallery/poshanmaah2022"}
               src="/assets/gallery/poshanmaah2022/1.jpeg"
               annot={"Poshan Maah 2022"}
